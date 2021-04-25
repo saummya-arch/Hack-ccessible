@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Vision",
+  "description": "Choose your vision for yourself. This contains all the conditions of colour-blindness. Enjoy every website and be comfortable!",
+  "version": "1.0.0",
+  "icons": {
+    "128": "rsz_invison.png"
+  },
+  "browser_action": {
+    "default_icon": "src/invison.jpg",
+    "default_popup": "src/index.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
